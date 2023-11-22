@@ -2,6 +2,6 @@
 fibonacci = (0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55)
 
 def print_fibonacci(length):
-    return len(fibonacci)
+    print(list(fibonacci[:length]))
 
-print(print_fibonacci(10))
+print_fibonacci(10)
